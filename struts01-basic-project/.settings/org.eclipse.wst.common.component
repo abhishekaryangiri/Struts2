@@ -2,6 +2,30 @@
     <wb-module deploy-name="struts01-basic-project">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="caffeine-3.1.8.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/caffeine-3.1.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-api-2.24.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/log4j-api-2.24.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-text-1.12.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/commons-text-1.12.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ognl-3.3.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/ognl-3.3.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.29.0-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/javassist-3.29.0-GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-core-7.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/struts2-core-7.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.33.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/freemarker-2.3.33.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang3-3.17.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/msi/Downloads/struts-7.0.0-min-lib/struts-7.0.0/lib/commons-lang3-3.17.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="struts01-basic-project"/>
         <property name="java-output-path" value="/struts01-basic-project/build/classes"/>
     </wb-module>
