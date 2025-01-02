@@ -8,15 +8,18 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-logging-1.0.4.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/freemarker-2.3.8.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ognl-2.6.11.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/xwork-2.0.1.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/struts2-core-2.0.6.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/caffeine-3.1.8.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-lang3-3.17.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-text-1.12.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/freemarker-2.3.33.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javassist-3.29.0-GA.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/log4j-api-2.24.2.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ognl-3.3.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/struts2-core-7.0.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
